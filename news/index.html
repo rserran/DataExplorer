@@ -13,7 +13,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">DataExplorer</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.8.4</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.9.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,6 +41,28 @@
       <small>Source: <a href="https://github.com/boxuancui/DataExplorer/blob/master/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
     </div>
 
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="0.9.0" id="dataexplorer-090">DataExplorer 0.9.0<a class="anchor" aria-label="anchor" href="#dataexplorer-090"></a></h2><p class="text-muted">CRAN release: 2026-03-08</p>
+<div class="section level3">
+<h3 id="new-features-0-9-0">New Features<a class="anchor" aria-label="anchor" href="#new-features-0-9-0"></a></h3>
+<ul><li>
+<a href="https://github.com/boxuancui/DataExplorer/issues/141" class="external-link">#141</a>: Added <code>plotly</code> argument to all plot functions. When <code>plotly = TRUE</code>, plots are converted to interactive plotly objects via <code><a href="https://rdrr.io/pkg/plotly/man/ggplotly.html" class="external-link">plotly::ggplotly()</a></code> (requires the plotly package).</li>
+</ul></div>
+<div class="section level3">
+<h3 id="enhancements-0-9-0">Enhancements<a class="anchor" aria-label="anchor" href="#enhancements-0-9-0"></a></h3>
+<ul><li>
+<a href="https://github.com/boxuancui/DataExplorer/issues/181" class="external-link">#181</a>: Added <code>by</code> argument to <code>plot_histogram</code> and <code>plot_density</code> to break down distributions by a discrete or continuous feature.</li>
+</ul></div>
+<div class="section level3">
+<h3 id="bug-fixes-0-9-0">Bug Fixes<a class="anchor" aria-label="anchor" href="#bug-fixes-0-9-0"></a></h3>
+<ul><li>
+<a href="https://github.com/boxuancui/DataExplorer/issues/169" class="external-link">#169</a>: Charts no longer run off the edge of PDF pages. Report template now uses smaller figure dimensions (6” x 6”) for PDF output and keeps larger dimensions (14” x 10”) for HTML.</li>
+<li>
+<a href="https://github.com/boxuancui/DataExplorer/issues/172" class="external-link">#172</a>: Fixed <code>plot_qq(..., by = ...)</code> error “Faceting variables must have at least one value”.</li>
+<li>
+<a href="https://github.com/boxuancui/DataExplorer/issues/185" class="external-link">#185</a>: Fixed warnings from deprecated <code>aes_string</code>.</li>
+</ul></div>
+</div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.8.4" id="dataexplorer-084">DataExplorer 0.8.4<a class="anchor" aria-label="anchor" href="#dataexplorer-084"></a></h2><p class="text-muted">CRAN release: 2025-07-25</p>
 <div class="section level3">
@@ -450,7 +472,7 @@
 </div>
 
 <div class="pkgdown-footer-right">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.3.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.</p>
 </div>
 
     </footer></div>
